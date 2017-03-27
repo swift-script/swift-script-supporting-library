@@ -1,8 +1,8 @@
 function tryq(command) {
-  try {
-    return command();
-  }
-  catch(e) {
-    return null;
-  }
+    try {
+        return command();
+    }
+    catch(e) {
+        return null;
+    }
 }
